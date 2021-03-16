@@ -7,7 +7,7 @@ CREATE TABLE "employees" (
     "emp_title" varchar   NOT NULL,
     "birth_date" date   NOT NULL,
     "first_name" varchar   NOT NULL,
-    "lat_name" varchar   NOT NULL,
+    "last_name" varchar   NOT NULL,
     "sex" varchar   NOT NULL,
     "hire_date" date   NOT NULL,
     CONSTRAINT "pk_employees" PRIMARY KEY (
